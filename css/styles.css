@@ -298,15 +298,29 @@ background-color: #FFFFFF;
 
 
 .hero{
-padding-top: 200px;
-padding-bottom: 200px;
+/* padding-top: 200px;
+padding-bottom: 200px; */
 text-align: center;
-background-color: #2F303A;
+/* background-color: #2F303A; */
+}
+
+.overlay{
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/Img-overlay.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #2F303A;
 }
 
 .page-main{
-padding: 0px;
+/* padding: 0px; */
 margin: 0px;
+padding-top: 200px;
+padding-bottom: 280px;
 font-weight: 900;
 font-size: 44px;
 line-height: 60px;
@@ -315,7 +329,7 @@ text-transform: uppercase;
 color: #FFFFFF;
 }
 
-.btn-main{
+.overlay .btn-main{
 min-width: 200px;
 border-radius: 5px;
 padding: 12px 32px;
@@ -473,3 +487,57 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 
+
+
+
+.icon-mail{
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+}
+
+.icon-smartphone{
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+}
+
+
+.icon-mail:hover
+.icon-mail:focus{
+    fill: #2196F3;
+}
+
+
+.content-box{
+    display: block;
+    content: "";
+    height: 120px;
+    width: 270px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+}
+
+.icon-antena{
+    width: 70px;
+    height: 70px;
+}
+
+.icon-clock{
+    width: 70px;
+    height: 70px;
+}
+
+.icon-diagram{
+    width: 70px;
+    height: 70px;
+}
+
+.icon-astronaut{
+    width: 70px;
+    height: 70px;
+
+}
